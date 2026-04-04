@@ -12,8 +12,5 @@ dependencies:
   - pre-commit>=3.0,<4.0
   - pandas>=1.3,<2.3
   # Khai báo gói PyPI tại đây.
-  - pip: []
-    # Ví dụ:
-    # - pip:
-    #     - requests>=2.32.0
-    #     - python-dotenv>=1.0.1
+  - pip:
+      - clearml>=1.13.0,<=1.15.3
