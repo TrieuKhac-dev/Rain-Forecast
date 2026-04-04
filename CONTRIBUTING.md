@@ -43,6 +43,21 @@ Luôn dùng lệnh trên thay vì:
 conda env update -f environment.yml --prune
 ```
 
+### Khởi tạo cấu hình ClearML
+
+1. Đăng ký tài khoản tại [ClearML](https://app.clear.ml/) (hoặc dùng server riêng nếu có).
+2. Mở terminal tại thư mục dự án, chạy:
+
+   ```powershell
+   clearml-init
+   ```
+
+3. Truy cập [ClearML Workspace Configuration](https://app.clear.ml/settings/workspace-configuration), tạo credentials mới và copy đoạn cấu hình.
+
+4. Quay lại terminal, dán đoạn cấu hình khi được hỏi.
+
+5. File `clearml.conf` sẽ được tạo ở thư mục người dùng hoặc dự án.
+
 ## Quy tắc dependency (tóm tắt)
 
 - Luôn sửa `environment.yml` trước, sau đó mới update environment.
