@@ -26,6 +26,7 @@ DEFAULT_COLUMNS = [
     "latitude",
     "longitude",
     "elevation",
+    "time",
     "temperature_2m_mean (Â°C)",
     "rain_sum (mm)",
     "relative_humidity_2m_mean (%)",
